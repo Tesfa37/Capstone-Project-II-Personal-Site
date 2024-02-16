@@ -1,0 +1,48 @@
+.d-block{
+    border-radius: 50%;
+}
+@media screen and (max-width: 600px){
+    .d-block {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+}
+@media (min-width:650px) and (max-width: 1200px){
+    .d-block {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+}
+.bg-body-tertiary{
+    background-color: #ffffff !important;
+}
+*{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-weight: 600;
+}
+.title{
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: rgb(85, 85, 85);
+}
+p{
+    color: rgb(85, 85, 85);
+}
+li{
+    color: rgb(85, 85, 85);
+}
+h5{
+    font-weight: 400;
+    color: black;
+}
+footer p {
+    text-align: center;
+}
